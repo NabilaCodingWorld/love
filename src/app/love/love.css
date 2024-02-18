@@ -1,0 +1,30 @@
+/* Import Font Awesome */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* Body Styles */
+.body {
+  font-family: "Lora";
+  font-size: 17px;
+  line-height: 1.5;
+  background-color: #fff;
+  background-image: url("/view-tulip-flowers-condensed-glass_23-2149478656.jpg"); /* Corrected image path */
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Box Styles */
+.box {
+  background: #e91e63;
+  padding: 60px 60px;
+  color: #fff;
+  text-align: center;
+  /* margin: 25vh auto; */
+  position: relative;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.box img {
+  width: 100px;
+}
